@@ -37,6 +37,7 @@ public class RodCutting {
     }
     
     
+    //RodCutting In Recursive Method
     public static int RodCuttingRecursion(int[] price, int len){
         // check total piece
         if(len==0)
@@ -52,7 +53,7 @@ public class RodCutting {
     }
     
     
-    
+    //RodCutting In Dynamic Programming
     public static int RodCutting(int[] price, int len){
         //initializing array to store previous results
         int result[] = new int[len+1];
